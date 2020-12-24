@@ -1,0 +1,88 @@
+body{
+  font-family: sans-serif;
+  background-image: url(/Users/sioncherem/Desktop/single-price-grid-component-master/images/favicon-32x32.png);
+
+}
+
+.large_container{
+  margin: 250px 300px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  /* border: 5px solid black; */
+  border-width: 3px;
+  box-shadow: 4px 4px 3px grey;
+
+}
+
+.first_container{
+
+  /* grid-area: 1 / 1 / span 1 / span 1; */
+  padding: 25px 130px 25px 25px;
+  background-color: white;
+  border-radius: 20px;
+
+}
+
+#intro_heading{
+
+  color: #03dbfc;
+}
+
+#money_back{
+  color: #befc03;
+}
+
+#exaplanation{
+  color: #3e5461;
+}
+
+.second_container{
+  /* grid-area: 2 / 2 / span 1 / span 1; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  color: white;
+}
+
+.second_container_first_col{
+  padding: 25px 20px;
+  background-color: #00a6ff;
+  justify-content: center;
+  border-radius: 0px 0px 0px 20px;
+
+}
+
+#monthly_sub{
+  font-weight: bold;
+}
+
+#price{
+  font-size: 30px;
+}
+
+#per_month{
+
+}
+
+button{
+  padding: 10px 90px;
+  color: white;
+  font-family: sans-serif;
+  background-color: #befc03;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.second_container_second_col{
+  padding: 25px 20px;
+  background-color: #03dbfc;
+  border-radius: 0px 0px 20px 0px;
+
+}
+
+#expl{
+  width: 150px;
+  line-height: 22px;
+}
